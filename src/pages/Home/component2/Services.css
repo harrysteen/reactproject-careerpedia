@@ -1,0 +1,17 @@
+.services{
+    width: 100%;
+    padding: 50px 50px;
+}
+
+.services img{
+    width: 100%;
+}
+
+
+ 
+.slick-slide {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}

@@ -1,0 +1,43 @@
+.calltoaction{
+    width: 100%;
+    height: 300px;
+     background-color: #080808;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 40px;
+}
+
+.calltoaction h2{
+     font-size: 40px;
+}
+
+.calltoaction button{
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 229, 229);
+}
+
+@media(max-width:800px){
+ .calltoaction{
+
+    height: 250px;
+    gap: 30px;
+ }
+ .calltoaction h2{
+    font-size: 20px;
+ }
+ .calltoaction button{
+    padding: 8px 30px;
+ }
+
+}
+
+@media(max-width:450){
+
+    .calltoaction h2{
+
+        font-size: 20px;
+    }
+}
